@@ -1,0 +1,9 @@
+.vscode/
+.tmp/
+test/
+.depcheckrc
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc
+README.md
