@@ -1,13 +1,12 @@
-var path = require('path');
 var externals = require('rollup-plugin-node-externals').default;
 var resolve = require('@rollup/plugin-node-resolve');
 var commonjs = require('@rollup/plugin-commonjs');
 var getBabelOutputPlugin = require('@rollup/plugin-babel').getBabelOutputPlugin;
 
 module.exports = {
-  input: path.resolve(__dirname, 'node_modules', 'path-key'),
+  input: require.resolve('path-key'),
   output: {
-    file: 'lib/path-key.js',
+    file: 'lib/path-key/index.js',
     format: 'cjs',
     exports: 'named',
   },

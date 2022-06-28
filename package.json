@@ -22,7 +22,7 @@
     "prepublishOnly": "dtd \"npm run lint\" \"depcheck\"",
     "test": "mocha-compat test/spec/**/*.test.js --no-timeouts",
     "test:engines": "nvu engines npm test",
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c config/rollup.pk.config.js"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.6",
@@ -31,7 +31,7 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@typescript-eslint/parser": "^5.30.0",
     "depcheck": "^1.4.3",
-    "dis-dat": "^0.1.4",
+    "dis-dat": "^0.1.5",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
@@ -40,7 +40,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^4.1.0",
     "mocha-compat": "^3.5.5",
-    "node-version-use": "^0.2.2",
+    "node-version-use": "^0.2.3",
     "path-key": "^3.1.0",
     "prettier": "^2.7.1",
     "rollup": "^2.75.7",
