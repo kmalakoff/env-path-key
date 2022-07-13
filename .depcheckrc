@@ -1,2 +1,2 @@
-ignores: ["depcheck", "@babel/*", "babel-*", "eslint-*", "rollup-*", "cross-spawn-cb", "object-keys", "path-key"]
+ignores: ["depcheck"]
 ignoreDirs: [".tmp"]

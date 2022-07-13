@@ -55,11 +55,6 @@ describe('win32', function () {
     assert.equal(key, 'patH');
   });
 
-  // it('selects Path over path', function () {
-  //   var key = pathKey({ platform: 'win32', env: { path: 'Not Used', Path: 'Used' } });
-  //   assert.equal(key, 'path');
-  // });
-
   it('skips PATH if multiple exist', function () {
     var key = pathKey({ platform: 'win32', env: { PATH: 'Not Used', path: 'Used' } });
     assert.equal(key, 'path');
