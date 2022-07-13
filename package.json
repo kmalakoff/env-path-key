@@ -28,10 +28,10 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
-    "@typescript-eslint/parser": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.5",
     "depcheck": "^1.4.3",
     "dis-dat": "^0.1.7",
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -39,8 +39,8 @@
     "mocha-compat": "^3.5.5",
     "path-key": "^3.1.0",
     "prettier": "^2.7.1",
-    "rollup": "^2.75.7",
-    "rollup-plugin-node-externals": "^4.1.0"
+    "rollup": "^2.76.0",
+    "rollup-plugin-node-externals": "^4.1.1"
   },
   "engines": {
     "node": ">=0.8"
