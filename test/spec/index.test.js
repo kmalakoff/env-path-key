@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 const pathKey = require('env-path-key');
+const isWindows = process.platform === 'win32' || /^(msys|cygwin)$/.test(process.env.OSTYPE);
 
 describe('darwin', () => {
   it('no env', () => {
@@ -79,6 +80,6 @@ describe('native', () => {
 
   it('empty env', () => {
     const key = pathKey({ env: {} });
-    assert.equal(key, process.platform === 'win32' ? 'Path' : 'PATH');
+    assert.equal(key, isWindows ? 'Path' : 'PATH');
   });
 });
