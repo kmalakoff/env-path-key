@@ -1,2 +1,2 @@
-ignores: ["env-path-key", "depcheck", "ts-dev-stack", "@types/*"]
+ignores: ["env-path-key", "depcheck", "@types/*", "@biomejs/*"]
 ignoreDirs: [".tmp"]
