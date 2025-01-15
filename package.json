@@ -1,6 +1,6 @@
 {
   "name": "env-path-key",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Determines the path key",
   "keywords": [
     "env",
