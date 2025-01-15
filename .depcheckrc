@@ -1,2 +1,2 @@
-ignores: ["@types/*", "env-path-key", "depcheck", "@biomejs/*"]
+ignores: ["env-path-key"]
 ignoreDirs: [".tmp"]
