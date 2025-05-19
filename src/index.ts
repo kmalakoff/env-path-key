@@ -17,8 +17,8 @@ export interface Options {
   env?: NodeJS.ProcessEnv;
 }
 
-export default (options: Options): string => {
-  const platform = options ? options.platform || process.platform : process.platform;
+export default (options?: Options): string => {
+  const platform = options === undefined ? process.platform : options.platform || process.platform;
   if (platform !== 'win32') return 'PATH';
   const env = options ? options.env || process.env : process.env;
   return windowsPathKey(env);
