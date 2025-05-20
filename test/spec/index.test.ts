@@ -1,6 +1,7 @@
-const assert = require('assert');
+import assert from 'assert';
 
-const pathKey = require('env-path-key');
+// @ts-ignore
+import pathKey from 'env-path-key';
 const isWindows = process.platform === 'win32' || /^(msys|cygwin)$/.test(process.env.OSTYPE);
 
 describe('darwin', () => {
