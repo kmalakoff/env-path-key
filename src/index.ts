@@ -1,4 +1,4 @@
-import startsCaseInsensitiveFn from './startsCaseInsensitiveFn.js';
+import startsCaseInsensitiveFn from './startsCaseInsensitiveFn.ts';
 
 const startsPath = startsCaseInsensitiveFn('path');
 
