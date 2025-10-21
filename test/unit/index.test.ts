@@ -1,6 +1,5 @@
 import assert from 'assert';
 
-// @ts-ignore
 import pathKey from 'env-path-key';
 
 const isWindows = process.platform === 'win32' || /^(msys|cygwin)$/.test(process.env.OSTYPE);
