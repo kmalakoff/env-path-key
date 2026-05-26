@@ -2,7 +2,7 @@ import startsCaseInsensitiveFn from './startsCaseInsensitiveFn.ts';
 
 const startsPath = startsCaseInsensitiveFn('path');
 
-function windowsPathKey(env) {
+function windowsPathKey(env: NodeJS.ProcessEnv) {
   let pathKey = 'Path';
   for (const key in env) {
     if (key.length === 4 && startsPath(key)) {
